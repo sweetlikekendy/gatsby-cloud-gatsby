@@ -6,7 +6,7 @@ const Post = ({ data: { post } }) => {
   return (
     <>
       <h1>{post.title}</h1>
-      <Img fluid={post.mainImage.asset.fluid && post.mainImage.asset.fluid} />
+      <Img fluid={post.mainImage.asset.fluid} />
     </>
   )
 }
